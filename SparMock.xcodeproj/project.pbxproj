@@ -8,17 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		B5F03D0F2B6A4A3900D3E6ED /* SparMockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D0E2B6A4A3900D3E6ED /* SparMockApp.swift */; };
-		B5F03D112B6A4A3900D3E6ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D102B6A4A3900D3E6ED /* ContentView.swift */; };
+		B5F03D112B6A4A3900D3E6ED /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D102B6A4A3900D3E6ED /* Tabbar.swift */; };
 		B5F03D132B6A4A3B00D3E6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F03D122B6A4A3B00D3E6ED /* Assets.xcassets */; };
 		B5F03D162B6A4A3B00D3E6ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F03D152B6A4A3B00D3E6ED /* Preview Assets.xcassets */; };
+		B5F03D202B6A595D00D3E6ED /* FirstTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D1F2B6A595D00D3E6ED /* FirstTab.swift */; };
+		B5F03D232B6A59CD00D3E6ED /* NavigationCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D222B6A59CD00D3E6ED /* NavigationCustomView.swift */; };
+		B5F03D262B6A728E00D3E6ED /* ImageSectorFirstTabSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D252B6A728E00D3E6ED /* ImageSectorFirstTabSection.swift */; };
+		B5F03D292B6A82BD00D3E6ED /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D282B6A82BD00D3E6ED /* MockData.swift */; };
+		B5F03D2B2B6A90DD00D3E6ED /* SaleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D2A2B6A90DD00D3E6ED /* SaleSheet.swift */; };
+		B5F03D2D2B6A932D00D3E6ED /* TitleProductWithCountryFirstTabSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D2C2B6A932D00D3E6ED /* TitleProductWithCountryFirstTabSection.swift */; };
+		B5F03D2F2B6A955E00D3E6ED /* DescriptionsFirstTabSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D2E2B6A955E00D3E6ED /* DescriptionsFirstTabSection.swift */; };
+		B5F03D312B6A9D7C00D3E6ED /* CharacteristicFirstTabSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D302B6A9D7C00D3E6ED /* CharacteristicFirstTabSection.swift */; };
+		B5F03D332B6A9DF900D3E6ED /* CharactetisticComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D322B6A9DF900D3E6ED /* CharactetisticComponent.swift */; };
+		B5F03D352B6AA0BD00D3E6ED /* DashLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D342B6AA0BD00D3E6ED /* DashLine.swift */; };
+		B5F03D382B6AAE9F00D3E6ED /* ReviewsFirstTabSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D372B6AAE9F00D3E6ED /* ReviewsFirstTabSection.swift */; };
+		B5F03D3A2B6AAFA300D3E6ED /* ReviewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D392B6AAFA300D3E6ED /* ReviewsCell.swift */; };
+		B5F03D3C2B6AB08100D3E6ED /* FiveStarsRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D3B2B6AB08100D3E6ED /* FiveStarsRating.swift */; };
+		B5F03D3E2B6AC40900D3E6ED /* CalculateFirstTabSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D3D2B6AC40900D3E6ED /* CalculateFirstTabSection.swift */; };
+		B5F03D402B6AC46900D3E6ED /* SwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D3F2B6AC46900D3E6ED /* SwitchButton.swift */; };
+		B5F03D422B6ACFB200D3E6ED /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D412B6ACFB200D3E6ED /* Fraction.swift */; };
+		B5F03D442B6AD68500D3E6ED /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D432B6AD68500D3E6ED /* CustomStepper.swift */; };
+		B5F03D462B6ADE4900D3E6ED /* CostWithSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F03D452B6ADE4900D3E6ED /* CostWithSale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5F03D0B2B6A4A3900D3E6ED /* SparMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F03D0E2B6A4A3900D3E6ED /* SparMockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparMockApp.swift; sourceTree = "<group>"; };
-		B5F03D102B6A4A3900D3E6ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5F03D102B6A4A3900D3E6ED /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		B5F03D122B6A4A3B00D3E6ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5F03D152B6A4A3B00D3E6ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5F03D1F2B6A595D00D3E6ED /* FirstTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTab.swift; sourceTree = "<group>"; };
+		B5F03D222B6A59CD00D3E6ED /* NavigationCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustomView.swift; sourceTree = "<group>"; };
+		B5F03D252B6A728E00D3E6ED /* ImageSectorFirstTabSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSectorFirstTabSection.swift; sourceTree = "<group>"; };
+		B5F03D282B6A82BD00D3E6ED /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		B5F03D2A2B6A90DD00D3E6ED /* SaleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleSheet.swift; sourceTree = "<group>"; };
+		B5F03D2C2B6A932D00D3E6ED /* TitleProductWithCountryFirstTabSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleProductWithCountryFirstTabSection.swift; sourceTree = "<group>"; };
+		B5F03D2E2B6A955E00D3E6ED /* DescriptionsFirstTabSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionsFirstTabSection.swift; sourceTree = "<group>"; };
+		B5F03D302B6A9D7C00D3E6ED /* CharacteristicFirstTabSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicFirstTabSection.swift; sourceTree = "<group>"; };
+		B5F03D322B6A9DF900D3E6ED /* CharactetisticComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactetisticComponent.swift; sourceTree = "<group>"; };
+		B5F03D342B6AA0BD00D3E6ED /* DashLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashLine.swift; sourceTree = "<group>"; };
+		B5F03D372B6AAE9F00D3E6ED /* ReviewsFirstTabSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsFirstTabSection.swift; sourceTree = "<group>"; };
+		B5F03D392B6AAFA300D3E6ED /* ReviewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsCell.swift; sourceTree = "<group>"; };
+		B5F03D3B2B6AB08100D3E6ED /* FiveStarsRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveStarsRating.swift; sourceTree = "<group>"; };
+		B5F03D3D2B6AC40900D3E6ED /* CalculateFirstTabSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateFirstTabSection.swift; sourceTree = "<group>"; };
+		B5F03D3F2B6AC46900D3E6ED /* SwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButton.swift; sourceTree = "<group>"; };
+		B5F03D412B6ACFB200D3E6ED /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		B5F03D432B6AD68500D3E6ED /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		B5F03D452B6ADE4900D3E6ED /* CostWithSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostWithSale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +87,9 @@
 		B5F03D0D2B6A4A3900D3E6ED /* SparMock */ = {
 			isa = PBXGroup;
 			children = (
+				B5F03D272B6A82A900D3E6ED /* MockData */,
+				B5F03D1C2B6A592700D3E6ED /* UI */,
 				B5F03D0E2B6A4A3900D3E6ED /* SparMockApp.swift */,
-				B5F03D102B6A4A3900D3E6ED /* ContentView.swift */,
 				B5F03D122B6A4A3B00D3E6ED /* Assets.xcassets */,
 				B5F03D142B6A4A3B00D3E6ED /* Preview Content */,
 			);
@@ -65,6 +102,79 @@
 				B5F03D152B6A4A3B00D3E6ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5F03D1C2B6A592700D3E6ED /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B5F03D212B6A59B500D3E6ED /* NavigationCustomView */,
+				B5F03D1E2B6A593E00D3E6ED /* FirstTab */,
+				B5F03D1D2B6A593100D3E6ED /* Tabbar */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B5F03D1D2B6A593100D3E6ED /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				B5F03D102B6A4A3900D3E6ED /* Tabbar.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		B5F03D1E2B6A593E00D3E6ED /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				B5F03D362B6AAC9600D3E6ED /* Sections */,
+				B5F03D242B6A727C00D3E6ED /* Components */,
+				B5F03D1F2B6A595D00D3E6ED /* FirstTab.swift */,
+			);
+			path = FirstTab;
+			sourceTree = "<group>";
+		};
+		B5F03D212B6A59B500D3E6ED /* NavigationCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				B5F03D222B6A59CD00D3E6ED /* NavigationCustomView.swift */,
+			);
+			path = NavigationCustomView;
+			sourceTree = "<group>";
+		};
+		B5F03D242B6A727C00D3E6ED /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B5F03D2A2B6A90DD00D3E6ED /* SaleSheet.swift */,
+				B5F03D322B6A9DF900D3E6ED /* CharactetisticComponent.swift */,
+				B5F03D342B6AA0BD00D3E6ED /* DashLine.swift */,
+				B5F03D392B6AAFA300D3E6ED /* ReviewsCell.swift */,
+				B5F03D3B2B6AB08100D3E6ED /* FiveStarsRating.swift */,
+				B5F03D3F2B6AC46900D3E6ED /* SwitchButton.swift */,
+				B5F03D412B6ACFB200D3E6ED /* Fraction.swift */,
+				B5F03D432B6AD68500D3E6ED /* CustomStepper.swift */,
+				B5F03D452B6ADE4900D3E6ED /* CostWithSale.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B5F03D272B6A82A900D3E6ED /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				B5F03D282B6A82BD00D3E6ED /* MockData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		B5F03D362B6AAC9600D3E6ED /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				B5F03D252B6A728E00D3E6ED /* ImageSectorFirstTabSection.swift */,
+				B5F03D2C2B6A932D00D3E6ED /* TitleProductWithCountryFirstTabSection.swift */,
+				B5F03D2E2B6A955E00D3E6ED /* DescriptionsFirstTabSection.swift */,
+				B5F03D302B6A9D7C00D3E6ED /* CharacteristicFirstTabSection.swift */,
+				B5F03D372B6AAE9F00D3E6ED /* ReviewsFirstTabSection.swift */,
+				B5F03D3D2B6AC40900D3E6ED /* CalculateFirstTabSection.swift */,
+			);
+			path = Sections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +247,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F03D112B6A4A3900D3E6ED /* ContentView.swift in Sources */,
+				B5F03D202B6A595D00D3E6ED /* FirstTab.swift in Sources */,
+				B5F03D292B6A82BD00D3E6ED /* MockData.swift in Sources */,
+				B5F03D3C2B6AB08100D3E6ED /* FiveStarsRating.swift in Sources */,
+				B5F03D112B6A4A3900D3E6ED /* Tabbar.swift in Sources */,
+				B5F03D2D2B6A932D00D3E6ED /* TitleProductWithCountryFirstTabSection.swift in Sources */,
+				B5F03D2F2B6A955E00D3E6ED /* DescriptionsFirstTabSection.swift in Sources */,
+				B5F03D332B6A9DF900D3E6ED /* CharactetisticComponent.swift in Sources */,
 				B5F03D0F2B6A4A3900D3E6ED /* SparMockApp.swift in Sources */,
+				B5F03D442B6AD68500D3E6ED /* CustomStepper.swift in Sources */,
+				B5F03D382B6AAE9F00D3E6ED /* ReviewsFirstTabSection.swift in Sources */,
+				B5F03D262B6A728E00D3E6ED /* ImageSectorFirstTabSection.swift in Sources */,
+				B5F03D2B2B6A90DD00D3E6ED /* SaleSheet.swift in Sources */,
+				B5F03D402B6AC46900D3E6ED /* SwitchButton.swift in Sources */,
+				B5F03D3E2B6AC40900D3E6ED /* CalculateFirstTabSection.swift in Sources */,
+				B5F03D352B6AA0BD00D3E6ED /* DashLine.swift in Sources */,
+				B5F03D3A2B6AAFA300D3E6ED /* ReviewsCell.swift in Sources */,
+				B5F03D422B6ACFB200D3E6ED /* Fraction.swift in Sources */,
+				B5F03D232B6A59CD00D3E6ED /* NavigationCustomView.swift in Sources */,
+				B5F03D312B6A9D7C00D3E6ED /* CharacteristicFirstTabSection.swift in Sources */,
+				B5F03D462B6ADE4900D3E6ED /* CostWithSale.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +408,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +416,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = uz.IsmailovRuslan.SparMock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,6 +442,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +450,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = uz.IsmailovRuslan.SparMock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

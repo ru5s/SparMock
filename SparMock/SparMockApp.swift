@@ -11,7 +11,7 @@ import SwiftUI
 struct SparMockApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Tabbar()
         }
     }
 }
