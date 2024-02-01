@@ -19,7 +19,6 @@ struct Fraction: View {
                     .font(.system(size: 15))
                     .padding(.leading, 25)
             })
-            
             Rectangle()
                 .background(Color.black)
                 .rotationEffect(.degrees(315.0))
@@ -28,8 +27,4 @@ struct Fraction: View {
         }
         .frame(width: 50, height: 30)
     }
-}
-
-#Preview {
-    Fraction(isKg: .constant(false))
 }

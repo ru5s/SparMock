@@ -27,7 +27,3 @@ struct TitleProductWithCountryFirstTabSection: View {
         }
     }
 }
-
-#Preview {
-    TitleProductWithCountryFirstTabSection(data: arriveMockData)
-}

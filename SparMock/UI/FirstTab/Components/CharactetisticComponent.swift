@@ -15,18 +15,12 @@ struct CharactetisticComponent: View {
             Text(title)
                 .multilineTextAlignment(.leading)
                 .layoutPriority(1)
-            
             DashLine()
                 .stroke(style: StrokeStyle(lineWidth: 1, dash: [3]))
                 .frame(height: 1)
-                
             Text(description)
                 .multilineTextAlignment(.trailing)
                 .layoutPriority(1)
         })
     }
-}
-
-#Preview {
-    CharactetisticComponent(title: "Энергетическая ценность, ккал/100 г", description: "Россия, Краснодарский край")
 }

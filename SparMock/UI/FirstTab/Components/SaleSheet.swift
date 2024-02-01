@@ -22,7 +22,3 @@ struct SaleSheet: View {
         })
     }
 }
-
-#Preview {
-    SaleSheet(sale: "5%")
-}

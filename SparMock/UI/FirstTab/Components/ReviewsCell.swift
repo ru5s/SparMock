@@ -26,7 +26,3 @@ struct ReviewsCell: View {
         .shadow(color: .gray.opacity(0.2), radius: 20, x: 0.0, y: 0.0)
     }
 }
-
-#Preview {
-    ReviewsCell(data: arriveMockData.review[0])
-}

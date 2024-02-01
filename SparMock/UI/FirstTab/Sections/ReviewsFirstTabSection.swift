@@ -56,7 +56,3 @@ struct ReviewsFirstTabSection: View {
         
     }
 }
-
-#Preview {
-    ReviewsFirstTabSection(data: arriveMockData)
-}

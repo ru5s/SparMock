@@ -35,10 +35,10 @@ struct NavigationCustomView<Content: View>: View {
             }
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(content: {
-                    Label("Корзина", image: "noteUpTabBarItem")
-                    Label("Корзина", image: "arrowUpTabBarItem")
+                    Label("Записка", image: "noteUpTabBarItem")
+                    Label("Стрелка вверз", image: "arrowUpTabBarItem")
                         .padding(.horizontal, 10)
-                    Label("Корзина", image: "heartTabBarItem")
+                    Label("Сердце", image: "heartTabBarItem")
                 })
                 .foregroundColor(Color.green)
             }

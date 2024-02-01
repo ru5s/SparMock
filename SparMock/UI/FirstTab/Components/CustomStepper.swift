@@ -32,6 +32,8 @@ struct CustomStepper: View {
                 Text("\(itemsCount) \(isKg ? "Кг" : "Шт")")
                     .fontWeight(.bold)
                 Text("\(!isKg ? amount : ((1000 / weight) * amount)) ₽")
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
             }
             .frame(maxWidth: 100)
             Button(action: {
@@ -44,7 +46,6 @@ struct CustomStepper: View {
                     .frame(maxWidth: 20)
                     .frame(height: 20)
             })
-            
         })
         .foregroundColor(Color.white)
         .padding(.horizontal, 20)
@@ -55,8 +56,4 @@ struct CustomStepper: View {
             amount = cost
         })
     }
-}
-
-#Preview {
-    CustomStepper(cost: .constant(120), itemsCount: .constant(1), isKg: .constant(false), weight: 100)
 }

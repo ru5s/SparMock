@@ -18,7 +18,3 @@ struct DescriptionsFirstTabSection: View {
         .padding(.top, 20)
     }
 }
-
-#Preview {
-    DescriptionsFirstTabSection(data: arriveMockData)
-}

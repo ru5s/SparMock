@@ -55,7 +55,3 @@ struct Tabbar: View {
         }
     }
 }
-
-#Preview {
-    Tabbar()
-}

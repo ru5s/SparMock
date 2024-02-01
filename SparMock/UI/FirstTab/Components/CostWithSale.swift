@@ -34,7 +34,3 @@ struct CostWithSale: View {
         return String(format: "%.1f", costMinusPercent)
     }
 }
-
-#Preview {
-    CostWithSale(isKg: .constant(true), cost: .constant(120), itemsCount: .constant(1), sale: 5)
-}

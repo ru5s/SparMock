@@ -18,7 +18,3 @@ struct FiveStarsRating: View {
         }
     }
 }
-
-#Preview {
-    FiveStarsRating(rating: 3)
-}

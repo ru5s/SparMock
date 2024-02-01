@@ -27,7 +27,3 @@ struct CharacteristicFirstTabSection: View {
         .padding(.top, 20)
     }
 }
-
-#Preview {
-    CharacteristicFirstTabSection(data: arriveMockData)
-}

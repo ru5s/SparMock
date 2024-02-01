@@ -41,7 +41,3 @@ struct SwitchButton: View {
         .clipShape(RoundedRectangle(cornerRadius: 12))
     }
 }
-
-#Preview {
-    SwitchButton(kgTouched: .constant(false))
-}

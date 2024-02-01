@@ -27,7 +27,3 @@ struct FirstTab: View {
             }
     }
 }
-
-#Preview {
-    FirstTab()
-}

@@ -35,6 +35,3 @@ struct ImageSectorFirstTabSection: View {
     }
 }
 
-#Preview {
-    ImageSectorFirstTabSection(data: arriveMockData)
-}

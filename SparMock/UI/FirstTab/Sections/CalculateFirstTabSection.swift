@@ -25,7 +25,6 @@ struct CalculateFirstTabSection: View {
                     Spacer()
                     CustomStepper(cost: $data.cost, itemsCount: $itemsCount, isKg: $isKg, weight: data.weight)
                 })
-                
                 Text("\(!isKg ? (data.cost * itemsCount) : (((1000 / data.weight) * data.cost) * itemsCount))")
                     .strikethrough(true, color: Color.gray)
                     .foregroundColor(Color.gray)
@@ -39,9 +38,3 @@ struct CalculateFirstTabSection: View {
        
     }
 }
-
-#Preview {
-    CalculateFirstTabSection(data: arriveMockData)
-}
-
-
